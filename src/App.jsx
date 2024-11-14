@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { LoadScript } from "@react-google-maps/api";
 import "./styles.css";
-import Home from "./pages/Home";
+import Hjem from "./pages/Hjem";
 import Layout from "./layout/Layout";
 import Om from "./pages/Om";
 import Kontakt from "./pages/Kontakt";
@@ -24,7 +24,7 @@ function App() {
                   <Helmet>
                     <title>Spurven</title>
                   </Helmet>
-                  <Home />
+                  <Hjem />
                 </>
               }
             />
