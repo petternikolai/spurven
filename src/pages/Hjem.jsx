@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import bakgrunn from "../assets/images/bakgrunn.png";
+import bakgrunn from "../assets/images/bg.png";
 
 export default function Example() {
   return (
