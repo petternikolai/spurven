@@ -55,3 +55,7 @@ body {
   font-family: "MADECarving", sans-serif;
   color: #0f3b5c;
 }
+
+.object-position-right {
+  object-position: right;
+}

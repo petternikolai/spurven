@@ -35,7 +35,7 @@ export default function Example() {
           <img
             alt="Blå himmel med et bjørketre til høyre"
             src={bakgrunn}
-            className="aspect-[3/2] object-fill lg:aspect-auto lg:size-full"
+            className="aspect-[3/2] object-cover lg:aspect-auto lg:size-full object-position-right"
           />
         </div>
       </div>
