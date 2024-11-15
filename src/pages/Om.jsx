@@ -11,9 +11,8 @@ import naaf from "../assets/images/naaf.png";
 
 const stats = [
   { label: "Firmaet ble grunnlagt", value: "2024" },
-  { label: "Personer i teamet", value: "10+" },
+  { label: "Personer i teamet", value: "15" },
   { label: "Samarbeidspartnere", value: "5" },
-  { label: "BLA BLA BLA", value: "999" },
 ];
 
 const samarbeidspartnere = [
@@ -74,68 +73,39 @@ const team = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
-      {/* Header section */}
-      <div className="px-6 pt-14 lg:px-8">
-        <div className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
-          <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">
+    <div className="bg-white pt-24 pb-6 sm:pt-32">
+      <div className="mx-auto max-w-7xl pt-14 px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:mx-0">
+          <h2 className="text-pretty text-4xl font-semibold tracking-tight sm:text-5xl">
             OM OSS
-          </h1>
+          </h2>
           <p className="mt-8 text-pretty text-lg font-medium sm:text-xl/8">
             Spurven er en pålitelig samarbeidspartner, levende opptatt av å
             sikre våre kunder resultater og vekst, slik at fokuset deres forblir
             på sitt hovedmål.
           </p>
-        </div>
-      </div>
 
-      {/* Content section */}
-      <div className="mx-auto mt-20 max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid max-w-xl grid-cols-1 gap-8 text-base/7  lg:max-w-none lg:grid-cols-2">
-            <div>
-              <p>
-                Vi er stolte av å kunne representere flotte foreninger og formål
-                gjennom en spirende bedriftskultur med fokus på gode holdninger
-                og kvalitet i alle ledd.
-              </p>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas.
-              </p>
-            </div>
-            <div>
-              <p>
-                Erat pellentesque dictumst ligula porttitor risus eget et eget.
-                Ultricies tellus felis id dignissim eget. Est augue maecenas
-                risus nulla ultrices congue nunc tortor. Enim et nesciunt
-                doloremque nesciunt voluptate.
-              </p>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
-              </p>
-            </div>
+          <div>
+            <p className="mt-6 text-lg/8">
+              Vi er stolte av å kunne representere flotte foreninger og formål
+              gjennom en spirende bedriftskultur med fokus på gode holdninger og
+              kvalitet i alle ledd.
+            </p>
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
-            {stats.map((stat, statIdx) => (
-              <div
-                key={statIdx}
-                className="flex flex-col-reverse gap-y-3 border-l border-black/20 pl-6"
-              >
-                <dt className="text-base/7">{stat.label}</dt>
-                <dd className="text-3xl font-semibold tracking-tight">
-                  {stat.value}
-                </dd>
-              </div>
-            ))}
-          </dl>
         </div>
+        <dl className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4">
+          {stats.map((stat, statIdx) => (
+            <div
+              key={statIdx}
+              className="flex flex-col-reverse gap-y-3 border-l border-black/20 pl-6"
+            >
+              <dt className="text-base/7">{stat.label}</dt>
+              <dd className="text-3xl font-semibold tracking-tight">
+                {stat.value}
+              </dd>
+            </div>
+          ))}
+        </dl>
       </div>
 
       {/* Image section */}
