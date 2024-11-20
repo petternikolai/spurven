@@ -59,3 +59,17 @@ body {
 .object-position-right {
   object-position: right;
 }
+
+.custom-height {
+  min-height: calc(
+    100vh - (6rem + 52px)
+  ); /* Adjusted for mobile header height */
+}
+
+@media (min-width: 1024px) {
+  .custom-height {
+    min-height: calc(
+      100vh - (9rem + 52px)
+    ); /* Adjusted for desktop header height */
+  }
+}
