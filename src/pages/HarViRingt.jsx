@@ -1,12 +1,12 @@
 export default function HarViRingt() {
   return (
-    <div className="bg-white pt-24 sm:pt-32">
-      <div className="mx-auto max-w-7xl pt-14 px-6 lg:px-8">
+    <div className="mx-auto sm:mt-20 mt-10 sm:mb-10 mb-5">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl lg:mx-0">
           <h2 className="text-pretty text-4xl font-semibold tracking-tight sm:text-5xl">
             HAR VI RINGT DEG?
           </h2>
-          <p className="mt-6 text-lg/8">
+          <p className="mt-10 text-lg/8">
             Vi er en seriøs aktør i bransjen, og er derfor nøye med å følge
             reglene for telefonsalg. Det innebærer blant annet at vi ikke ringer
             personer som har reservert seg.{" "}
@@ -18,9 +18,11 @@ export default function HarViRingt() {
               >
                 Les mer om reservasjon mot reklame i Brønnøysundregistrene.
               </a>
-            </span>{" "}
-            Dersom du har reservert deg, og vi fortsatt har ringt deg, er det
-            sannsynligvis på bakgrunn av èn av følgende:
+            </span>
+            <p>
+              Dersom du har reservert deg, og vi fortsatt har ringt deg, er det
+              sannsynligvis på bakgrunn av èn av følgende:
+            </p>
           </p>
           <ul className="list-disc list-inside pl-4 text-lg/8">
             <li>
@@ -33,13 +35,13 @@ export default function HarViRingt() {
             </li>
             <li>Du har blitt klarert for telefonsalg ved en feiltakelse</li>
           </ul>
-          <p className="mt-6 text-lg/8">
+          <p className="mt-10 text-lg/8">
             Dersom du mener du ikke skulle blitt kontaktet på vegne av en av
             våre kunder kan du kontakte oss på{" "}
             <span>
               <a
                 href="mailto:service@spurven.no"
-                className="text-gray-600 hover:text-standard"
+                className="hover:text-gray-600 underline"
               >
                 service@spurven.no
               </a>

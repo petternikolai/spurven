@@ -8,6 +8,7 @@ import Kontakt from "./pages/Kontakt";
 import HarViRingt from "./pages/HarViRingt";
 import Personvern from "./pages/Personvern";
 import { Helmet } from "react-helmet";
+import ScrollToTop from "./components/ScrollToTop";
 
 const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <LoadScript googleMapsApiKey={googleMapsApiKey} libraries={["marker"]}>
       <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <ScrollToTop />
         <Layout>
           <Routes>
             <Route
