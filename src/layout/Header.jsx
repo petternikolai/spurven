@@ -13,7 +13,7 @@ const navigation = [
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="sticky inset-x-0 top-0 z-50 h-24 lg:h-36 bg-white shadow-md">
+    <header className="sticky h-24 lg:h-36 bg-white shadow-md">
       <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
         <div className="pt-6 lg:pr-0">
           <div className="flex flex-col h-full">
