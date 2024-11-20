@@ -16,12 +16,6 @@ Denne nettsiden er laget for å presentere informasjon om firmaet "Spurven AS", 
 
 ## Installasjon
 
-Instruksjoner for hvordan man installerer og setter opp prosjektet lokalt.
-
-## Bruk
-
-Denne nettsiden bruker TailwindUI som inspirasjon til layout og komponenter. For mer informasjon om TailwindUI, se [TailwindUI dokumentasjon](https://tailwindui.com/documentation).
-
 For å kjøre prosjektet lokalt, følg disse trinnene:
 
 1. Klon repoet:
@@ -44,6 +38,10 @@ npm run dev
 ```
 
 4. Åpne nettleseren og naviger til [http://localhost:5173/](http://localhost:5173/) for å se nettsiden.
+
+## Bruk
+
+Denne nettsiden bruker TailwindUI som inspirasjon til layout og komponenter. For mer informasjon om TailwindUI, se [TailwindUI dokumentasjon](https://tailwindui.com/documentation).
 
 ## Teknologier
 
