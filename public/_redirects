@@ -1,1 +1,5 @@
 /*    /index.html   200
+
+# Omdiriger all HTTP-trafikk til HTTPS for både versjonene med og uten www
+http://spurven.no/*    https://spurven.no/:splat    301!
+http://www.spurven.no/* https://www.spurven.no/:splat 301!
