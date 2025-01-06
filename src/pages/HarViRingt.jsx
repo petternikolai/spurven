@@ -40,10 +40,10 @@ export default function HarViRingt() {
             våre kunder kan du kontakte oss på{" "}
             <span>
               <a
-                href="mailto:service@spurven.no"
+                href="mailto:kundeservice@spurven.no"
                 className="hover:text-gray-600 underline"
               >
-                service@spurven.no
+                kundeservice@spurven.no
               </a>
             </span>
             , så får du tilbakemelding fra oss om hvorfor du har blitt
