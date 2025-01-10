@@ -17,7 +17,7 @@ const stats = [
 
 const samarbeidspartnere = [
   { navn: "Nasjonalforeningen for folkehelsen", logo: nff },
-  { navn: "Norges astma-og allergiforbund", logo: naaf },
+  { navn: "Norges Astma-og Allergiforbund", logo: naaf },
   { navn: "Landsforeningen uventet barnedød", logo: lub },
   { navn: "MA Rusfri Trafikk", logo: mart },
   { navn: "Norges livredningsselskap", logo: nl },
