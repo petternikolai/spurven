@@ -2,7 +2,7 @@ import { PhoneIcon, ChartBarIcon, TruckIcon } from "@heroicons/react/20/solid";
 import sondre from "../assets/images/sondre.png";
 import dennis from "../assets/images/dennis.png";
 import christina from "../assets/images/christina.png";
-import chris from "../assets/images/chris.png";
+import berat from "../assets/images/berat.jpg";
 import mart from "../assets/images/mart.png";
 import lub from "../assets/images/lub.png";
 import nff from "../assets/images/nff.png";
@@ -67,11 +67,11 @@ const team = [
     email: "christina@spurven.no",
   },
   {
-    name: "Chris Andersen",
-    imageUrl: chris,
-    imageAlt: "Portrett av Chris Andersen",
-    role: "Salgsleder",
-    email: "chris@spurven.no",
+    name: "Berat Sadiku",
+    imageUrl: berat,
+    imageAlt: "Portrett av Berat Sadiku",
+    role: "Avdelingsleder",
+    email: "berat@spurven.no",
   },
 ];
 
