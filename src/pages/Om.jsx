@@ -60,13 +60,6 @@ const team = [
     email: "dennis@spurven.no",
   },
   {
-    name: "Christina Risnes",
-    imageUrl: christina,
-    imageAlt: "Portrett av Christina Risnes",
-    role: "Prosjektleder",
-    email: "christina@spurven.no",
-  },
-  {
     name: "Berat Sadiku",
     imageUrl: berat,
     imageAlt: "Portrett av Berat Sadiku",
