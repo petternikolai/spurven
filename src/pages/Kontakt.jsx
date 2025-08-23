@@ -33,10 +33,10 @@ export default function Kontakt() {
           <div className="flex items-center gap-2 mt-10">
             <EnvelopeIcon className="w-6 h-6" />
             <a
-              href="mailto:service@spurven.no"
+              href="mailto:kundeservice@spurven.no"
               className="text-gray-600 hover:tracking-wider hover:text-standard"
             >
-              service@spurven.no
+              kundeservice@spurven.no
             </a>
           </div>
         </div>
